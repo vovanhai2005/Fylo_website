@@ -1,0 +1,74 @@
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .mobile-menu-btn{
+        float: right;
+        padding: 0 21px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+    }
+    #header .mobile-menu-btn:hover .mobile-icon {
+        color: #000;
+    }
+    #header .mobile-icon {
+        color: white;
+        font-size: 20px;
+        line-height: 46px;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    } 
+    #nav .subnav a {
+        color: #fff;
+        padding: 11px 35px;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .text-content {
+        display: none;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+}
+@media (min-width: 63.9375em){
+    #header .mobile-icon {
+        display: none;
+    }
+}
+/*
+    - Tìm hiểu lại vì sao link lại ko dẫn trực tiếp đến trang
+ */
