@@ -208,8 +208,19 @@
                 </div>
             </div>
             <script>
-                
+                function validateEmail() {
+                    var email = document.getElementById("email").value;
+                    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        
+                    var message = document.getElementById("warning");
+        
+                    if (!emailRegex.test(email)) {
+                        message.textContent = "Please enter a valid email address";
+                    }
+                    else {
+                        message.textContent = "";
+                    }
+                }
             </script>
-        </div>
-    </body>
+        </body>
 </html>
